@@ -40,7 +40,7 @@ def prediction_mlp(data,sampling_rate):
     
 
 def main():
-    st.title("Emotion Classifier App")    
+    st.title(" Speech Emotion Classifier App")    
     menu = ["MLP Model","About"]
     choice = st.sidebar.selectbox("Menu",menu)
     col1, col2 = st.columns(2)
@@ -81,7 +81,7 @@ def main():
         original_title = '<p style="font-family:Courier; color:Teal; font-size: 25px;"><b>CREATED BY</b></p>'
         st.markdown(original_title, unsafe_allow_html=True)  
         st.write("\n")
-        original_title = '<p style="font-family:Courier; color:Teal; font-size: 20px;"><b>APOORVA</b></p>'
+        original_title = '<p style="font-family:Courier; color:Teal; font-size: 20px;"><b>APOORVA KR -apoorvargowda1@gmail.com</b></p>'
         st.markdown(original_title, unsafe_allow_html=True)       
 
 
