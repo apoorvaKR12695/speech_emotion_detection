@@ -74,7 +74,7 @@ def main():
         
         original_title = '<p style="font-family:Courier; color:Teal; font-size: 18px;"><b>Speech emotion recognition (SER) is a research field that based on speech recognition but deals with the recognizing the emotional state of the speaker. Speech emotion recognition can have applications between a natural man and machine interaction.</b></p>'
         st.markdown(original_title, unsafe_allow_html=True) 
-        original_title = '<p style="font-family:Courier; color:white;font-size: 18px;"></br><b>User will have two options for trying out : MLP, CNN<b><p>'
+        original_title = '<p style="font-family:Courier; color:white;font-size: 18px;"></br><b>trained MLP model to predict the output<b><p>'
         st.markdown(original_title, unsafe_allow_html=True)
         original_title = '<br></br>'
         st.markdown(original_title, unsafe_allow_html=True) 
